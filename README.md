@@ -1,8 +1,16 @@
 # Very simple Weather App
 
-This project is done to try out Lynx Framework by ByteDance. Making use of the native component in Lynx to compose this app out. The weather data within this app is fetched from (WeatherApi)[weatherapi.com]. An API key is required to fetch the data from the source.
+This project is done to try out Lynx Framework by ByteDance. Making use of the native component in Lynx to compose this app out. The weather data within this app is fetched from [WeatherApi](https://www.weatherapi.com/). An API key is required to fetch the data from the source.
 
 rename `src/constant_copy.ts` to `constant.ts` and input your api key and country to see the weather data in the app.
+
+## Screenshot of the app
+
+### Home Screen
+![homescreen](image.png)
+
+### Weather Screen
+![weatherscreen](image-1.png)
 
 ================================================================
 
