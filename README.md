@@ -46,6 +46,6 @@ npm run preview || pnpm run preview || bun run preview
 
 Scan the QRCode in the terminal with your LynxExplorer App to see the result.
 
-LynxExplorer is an app that serve as a sandbox for trying out Lynx project quickly. It is available on both IOS App Store and Google Play Store
+LynxExplorer is an app that serve as a sandbox for trying out Lynx project quickly. It is available on both IOS App Store and Google Play Store.
 
 You can start editing the page by modifying `src/App.tsx`. The page auto-updates as you edit the file.
