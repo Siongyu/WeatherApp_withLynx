@@ -1,0 +1,2 @@
+export const WEATHER_API_KEY = 'YOUR_WEATHER_API_KEY';
+export const LOCATION = 'YOUR_LOCATION';
