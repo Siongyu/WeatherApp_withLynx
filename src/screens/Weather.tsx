@@ -1,7 +1,7 @@
-import arrow from '../assets/arrow.png';
 import { useNavigate } from 'react-router';
 import { useEffect, useState } from '@lynx-js/react'
 import { WEATHER_API_KEY, LOCATION } from '../constant.ts';
+import '../App.css';
 
 const Weather = () => {
     const [weather, setWeather] = useState<any>(null);
@@ -31,8 +31,8 @@ const Weather = () => {
     if (!weather) return <text>Failed to load weather.</text>
 
     return (
-        <view className="container" style="padding: 10px;">
-            <image bindtap={() => navigate('/')} src={arrow} className="Arrow" style={{transform: 'rotate(270deg)'}}/>
+        <view className="container">
+            <text bindtap={() => navigate('/')} className="custom-button" style="width:72px; font-size: 10px; display: flex; justify-content: center; align-items: center">BACK</text>
             <view style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; margin-top: 70px">
                 <text style="color: #fafafa; font-size: 35px;">{weather.location.country}</text>
                 <text style="color: #fafafa; font-size: 70px;">{weather.current.temp_c}°</text>

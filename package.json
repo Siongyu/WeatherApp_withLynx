@@ -1,5 +1,5 @@
 {
-  "name": "todo_app",
+  "name": "weather-app-with-lynx",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
